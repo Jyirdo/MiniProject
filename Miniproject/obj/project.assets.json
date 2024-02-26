@@ -9,14 +9,19 @@
   },
   "packageFolders": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "C:\\Users\\agwar\\.nuget\\packages\\": {}
 =======
     "C:\\Users\\Mexpu\\.nuget\\packages\\": {}
 >>>>>>> 13d86784d7930e38b0de7a1b096fe91788a2127e
+=======
+    "/Users/joblimbeek/.nuget/packages/": {}
+>>>>>>> 513e1f4b9441bbac0437db9c8db3526e61c8aa60
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
 <<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\agwar\\OneDrive\\Documenten\\Miniproject\\MiniProject\\Miniproject\\Miniproject.csproj",
       "projectName": "Miniproject",
@@ -28,14 +33,21 @@
         "C:\\Users\\agwar\\AppData\\Roaming\\NuGet\\NuGet.Config"
 =======
       "projectUniqueName": "D:\\School\\Repos\\MiniProject\\Miniproject\\Miniproject.csproj",
+=======
+      "projectUniqueName": "/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/Miniproject.csproj",
+>>>>>>> 513e1f4b9441bbac0437db9c8db3526e61c8aa60
       "projectName": "Miniproject",
-      "projectPath": "D:\\School\\Repos\\MiniProject\\Miniproject\\Miniproject.csproj",
-      "packagesPath": "C:\\Users\\Mexpu\\.nuget\\packages\\",
-      "outputPath": "D:\\School\\Repos\\MiniProject\\Miniproject\\obj\\",
+      "projectPath": "/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/Miniproject.csproj",
+      "packagesPath": "/Users/joblimbeek/.nuget/packages/",
+      "outputPath": "/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\Mexpu\\AppData\\Roaming\\NuGet\\NuGet.Config"
 >>>>>>> 13d86784d7930e38b0de7a1b096fe91788a2127e
+=======
+        "/Users/joblimbeek/.nuget/NuGet/NuGet.Config"
+>>>>>>> 513e1f4b9441bbac0437db9c8db3526e61c8aa60
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -74,7 +86,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.405/RuntimeIdentifierGraph.json"
       }
     }
   }

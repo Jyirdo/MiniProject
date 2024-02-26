@@ -1,6 +1,7 @@
 {
   "version": 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "anJ4yfi8DCnGkOUhlKkdocNKI8V6IY6axScxQpqM1jQ7nQODw+Sjogg3FTz3x61SJUAdczIgGa5ZMCWbIFtPrQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\agwar\\OneDrive\\Documenten\\Miniproject\\MiniProject\\Miniproject\\Miniproject.csproj",
@@ -9,6 +10,11 @@
   "success": true,
   "projectFilePath": "D:\\School\\Repos\\MiniProject\\Miniproject\\Miniproject.csproj",
 >>>>>>> 13d86784d7930e38b0de7a1b096fe91788a2127e
+=======
+  "dgSpecHash": "Ek7GNcorZ/rogzCMGPCc0xVFpYO4zBF5yS7Mkdd3UwQLAf/mKsuz/PNw1Wb5gV/QB33x6MKxfn4TBxcHoK50lA==",
+  "success": true,
+  "projectFilePath": "/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/Miniproject.csproj",
+>>>>>>> 513e1f4b9441bbac0437db9c8db3526e61c8aa60
   "expectedPackageFiles": [],
   "logs": []
 }
