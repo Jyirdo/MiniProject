@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Mexpu\\.nuget\\packages\\": {}
+    "/Users/joblimbeek/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\School\\Repos\\MiniProject\\Miniproject\\Miniproject.csproj",
+      "projectUniqueName": "/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/Miniproject.csproj",
       "projectName": "Miniproject",
-      "projectPath": "D:\\School\\Repos\\MiniProject\\Miniproject\\Miniproject.csproj",
-      "packagesPath": "C:\\Users\\Mexpu\\.nuget\\packages\\",
-      "outputPath": "D:\\School\\Repos\\MiniProject\\Miniproject\\obj\\",
+      "projectPath": "/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/Miniproject.csproj",
+      "packagesPath": "/Users/joblimbeek/.nuget/packages/",
+      "outputPath": "/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Mexpu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/joblimbeek/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.405/RuntimeIdentifierGraph.json"
       }
     }
   }
