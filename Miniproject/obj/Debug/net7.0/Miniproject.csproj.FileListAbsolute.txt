@@ -1,0 +1,14 @@
+/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/bin/Debug/net7.0/Miniproject
+/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/bin/Debug/net7.0/Miniproject.deps.json
+/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/bin/Debug/net7.0/Miniproject.runtimeconfig.json
+/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/bin/Debug/net7.0/Miniproject.dll
+/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/bin/Debug/net7.0/Miniproject.pdb
+/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/obj/Debug/net7.0/Miniproject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/obj/Debug/net7.0/Miniproject.AssemblyInfoInputs.cache
+/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/obj/Debug/net7.0/Miniproject.AssemblyInfo.cs
+/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/obj/Debug/net7.0/Miniproject.csproj.CoreCompileInputs.cache
+/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/obj/Debug/net7.0/Miniproject.dll
+/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/obj/Debug/net7.0/refint/Miniproject.dll
+/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/obj/Debug/net7.0/Miniproject.pdb
+/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/obj/Debug/net7.0/Miniproject.genruntimeconfig.cache
+/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/obj/Debug/net7.0/ref/Miniproject.dll
