@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/Users/joblimbeek/.nuget/packages/": {}
+    "C:\\Users\\agwar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/Miniproject.csproj",
+      "projectUniqueName": "C:\\Users\\agwar\\OneDrive\\Documenten\\Miniproject\\MiniProject\\Miniproject\\Miniproject.csproj",
       "projectName": "Miniproject",
-      "projectPath": "/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/Miniproject.csproj",
-      "packagesPath": "/Users/joblimbeek/.nuget/packages/",
-      "outputPath": "/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/obj/",
+      "projectPath": "C:\\Users\\agwar\\OneDrive\\Documenten\\Miniproject\\MiniProject\\Miniproject\\Miniproject.csproj",
+      "packagesPath": "C:\\Users\\agwar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\agwar\\OneDrive\\Documenten\\Miniproject\\MiniProject\\Miniproject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/joblimbeek/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\agwar\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.405/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
       }
     }
   }

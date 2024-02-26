@@ -12,3 +12,10 @@
 /Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/obj/Debug/net7.0/Miniproject.pdb
 /Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/obj/Debug/net7.0/Miniproject.genruntimeconfig.cache
 /Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/obj/Debug/net7.0/ref/Miniproject.dll
+C:\Users\agwar\OneDrive\Documenten\Miniproject\MiniProject\Miniproject\obj\Debug\net7.0\Miniproject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agwar\OneDrive\Documenten\Miniproject\MiniProject\Miniproject\obj\Debug\net7.0\Miniproject.AssemblyInfoInputs.cache
+C:\Users\agwar\OneDrive\Documenten\Miniproject\MiniProject\Miniproject\obj\Debug\net7.0\Miniproject.AssemblyInfo.cs
+C:\Users\agwar\OneDrive\Documenten\Miniproject\MiniProject\Miniproject\obj\Debug\net7.0\Miniproject.csproj.CoreCompileInputs.cache
+C:\Users\agwar\OneDrive\Documenten\Miniproject\MiniProject\Miniproject\obj\Debug\net7.0\Miniproject.dll
+C:\Users\agwar\OneDrive\Documenten\Miniproject\MiniProject\Miniproject\obj\Debug\net7.0\refint\Miniproject.dll
+C:\Users\agwar\OneDrive\Documenten\Miniproject\MiniProject\Miniproject\obj\Debug\net7.0\Miniproject.pdb
