@@ -15,3 +15,14 @@
 //   A​
 // VFTGBS​
 //   H​
+
+class Location
+{
+    public Location(int LOCATION_ID, string locationName, string locationDescription) // null, null); Wat betekent dit?
+    {
+        int locationid = LOCATION_ID;
+        string locationname = locationName;
+        string locationdescription = locationDescription;
+    }
+
+}
