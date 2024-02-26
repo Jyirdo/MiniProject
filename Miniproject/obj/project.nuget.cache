@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "anJ4yfi8DCnGkOUhlKkdocNKI8V6IY6axScxQpqM1jQ7nQODw+Sjogg3FTz3x61SJUAdczIgGa5ZMCWbIFtPrQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\agwar\\OneDrive\\Documenten\\Miniproject\\MiniProject\\Miniproject\\Miniproject.csproj",
+=======
+  "dgSpecHash": "iqOJD+Pdt9YS58Fad4DvqiJeqa6RhO9DzGXxpagsJ9eayrlm32B15+ddPGN4bC5sWxMsfeWQ9Au2I5jw8vHcFA==",
+  "success": true,
+  "projectFilePath": "D:\\School\\Repos\\MiniProject\\Miniproject\\Miniproject.csproj",
+>>>>>>> 13d86784d7930e38b0de7a1b096fe91788a2127e
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,1 +1,7 @@
-﻿Console.WriteLine("Hallo duds");
+﻿public static class Program 
+{
+    public static void Main()
+    {
+        
+    }
+}

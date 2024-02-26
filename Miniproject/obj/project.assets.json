@@ -8,11 +8,16 @@
     "net7.0": []
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\agwar\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\Mexpu\\.nuget\\packages\\": {}
+>>>>>>> 13d86784d7930e38b0de7a1b096fe91788a2127e
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\agwar\\OneDrive\\Documenten\\Miniproject\\MiniProject\\Miniproject\\Miniproject.csproj",
       "projectName": "Miniproject",
       "projectPath": "C:\\Users\\agwar\\OneDrive\\Documenten\\Miniproject\\MiniProject\\Miniproject\\Miniproject.csproj",
@@ -21,6 +26,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\agwar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+      "projectUniqueName": "D:\\School\\Repos\\MiniProject\\Miniproject\\Miniproject.csproj",
+      "projectName": "Miniproject",
+      "projectPath": "D:\\School\\Repos\\MiniProject\\Miniproject\\Miniproject.csproj",
+      "packagesPath": "C:\\Users\\Mexpu\\.nuget\\packages\\",
+      "outputPath": "D:\\School\\Repos\\MiniProject\\Miniproject\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Mexpu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 13d86784d7930e38b0de7a1b096fe91788a2127e
       ],
       "originalTargetFrameworks": [
         "net7.0"
