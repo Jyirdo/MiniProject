@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KiaTaBzfrsoKskj67hZvHlLvBGHGageD+iAQ2ydoVxbk5wxuwAV564qChyo1g5J4kEt00NJOf0Wb5sCvZd9yLA==",
+  "dgSpecHash": "Ek7GNcorZ/rogzCMGPCc0xVFpYO4zBF5yS7Mkdd3UwQLAf/mKsuz/PNw1Wb5gV/QB33x6MKxfn4TBxcHoK50lA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yordi\\Desktop\\MiniProject\\Miniproject\\Miniproject.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\yordi\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.16\\microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
-    "C:\\Users\\yordi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.16\\microsoft.windowsdesktop.app.ref.7.0.16.nupkg.sha512",
-    "C:\\Users\\yordi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.16\\microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512",
-    "C:\\Users\\yordi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.16\\microsoft.netcore.app.host.win-x64.7.0.16.nupkg.sha512"
-  ],
+  "projectFilePath": "/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/Miniproject.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
