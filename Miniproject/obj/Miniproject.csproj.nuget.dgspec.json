@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/Miniproject.csproj": {}
+    "D:\\School\\Repos\\MiniProject\\Miniproject\\Miniproject.csproj": {}
   },
   "projects": {
-    "/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/Miniproject.csproj": {
+    "D:\\School\\Repos\\MiniProject\\Miniproject\\Miniproject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/Miniproject.csproj",
+        "projectUniqueName": "D:\\School\\Repos\\MiniProject\\Miniproject\\Miniproject.csproj",
         "projectName": "Miniproject",
-        "projectPath": "/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/Miniproject.csproj",
-        "packagesPath": "/Users/joblimbeek/.nuget/packages/",
-        "outputPath": "/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/obj/",
+        "projectPath": "D:\\School\\Repos\\MiniProject\\Miniproject\\Miniproject.csproj",
+        "packagesPath": "C:\\Users\\Mexpu\\.nuget\\packages\\",
+        "outputPath": "D:\\School\\Repos\\MiniProject\\Miniproject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/joblimbeek/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Mexpu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.405/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }
