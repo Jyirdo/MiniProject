@@ -1,20 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "dgSpecHash": "anJ4yfi8DCnGkOUhlKkdocNKI8V6IY6axScxQpqM1jQ7nQODw+Sjogg3FTz3x61SJUAdczIgGa5ZMCWbIFtPrQ==",
+  "dgSpecHash": "UN52NgbZ/etpBCPN6irZRbkCsv3KCi/8mQdghZwIOy94SMxqPkH7jUr5eGNFmL51t91I/rHaNS08o7Loyv9w4w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\agwar\\OneDrive\\Documenten\\Miniproject\\MiniProject\\Miniproject\\Miniproject.csproj",
-=======
-  "dgSpecHash": "iqOJD+Pdt9YS58Fad4DvqiJeqa6RhO9DzGXxpagsJ9eayrlm32B15+ddPGN4bC5sWxMsfeWQ9Au2I5jw8vHcFA==",
-  "success": true,
-  "projectFilePath": "D:\\School\\Repos\\MiniProject\\Miniproject\\Miniproject.csproj",
->>>>>>> 13d86784d7930e38b0de7a1b096fe91788a2127e
-=======
-  "dgSpecHash": "Ek7GNcorZ/rogzCMGPCc0xVFpYO4zBF5yS7Mkdd3UwQLAf/mKsuz/PNw1Wb5gV/QB33x6MKxfn4TBxcHoK50lA==",
-  "success": true,
-  "projectFilePath": "/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/Miniproject.csproj",
->>>>>>> 513e1f4b9441bbac0437db9c8db3526e61c8aa60
+  "projectFilePath": "C:\\Users\\jobli\\OneDrive\\Bureaublad\\UNI\\HBO MOMENT\\MiniProject\\Miniproject\\Miniproject.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\jobli\\OneDrive\\Bureaublad\\UNI\\HBO MOMENT\\MiniProject\\Miniproject\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

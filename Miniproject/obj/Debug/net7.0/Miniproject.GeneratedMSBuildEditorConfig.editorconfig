@@ -8,12 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Miniproject
-<<<<<<< HEAD
-<<<<<<< HEAD
-build_property.ProjectDir = C:\Users\agwar\OneDrive\Documenten\Miniproject\MiniProject\Miniproject\
-=======
-build_property.ProjectDir = D:\School\Repos\MiniProject\Miniproject\
->>>>>>> 13d86784d7930e38b0de7a1b096fe91788a2127e
-=======
-build_property.ProjectDir = /Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/
->>>>>>> 513e1f4b9441bbac0437db9c8db3526e61c8aa60
+build_property.ProjectDir = C:\Users\jobli\OneDrive\Bureaublad\UNI\HBO MOMENT\MiniProject\Miniproject\

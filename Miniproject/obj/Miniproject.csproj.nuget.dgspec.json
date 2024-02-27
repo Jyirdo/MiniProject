@@ -1,50 +1,31 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\Users\\agwar\\OneDrive\\Documenten\\Miniproject\\MiniProject\\Miniproject\\Miniproject.csproj": {}
+    "C:\\Users\\jobli\\OneDrive\\Bureaublad\\UNI\\HBO MOMENT\\MiniProject\\Miniproject\\Miniproject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\agwar\\OneDrive\\Documenten\\Miniproject\\MiniProject\\Miniproject\\Miniproject.csproj": {
+    "C:\\Users\\jobli\\OneDrive\\Bureaublad\\UNI\\HBO MOMENT\\MiniProject\\Miniproject\\Miniproject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\agwar\\OneDrive\\Documenten\\Miniproject\\MiniProject\\Miniproject\\Miniproject.csproj",
+        "projectUniqueName": "C:\\Users\\jobli\\OneDrive\\Bureaublad\\UNI\\HBO MOMENT\\MiniProject\\Miniproject\\Miniproject.csproj",
         "projectName": "Miniproject",
-        "projectPath": "C:\\Users\\agwar\\OneDrive\\Documenten\\Miniproject\\MiniProject\\Miniproject\\Miniproject.csproj",
-        "packagesPath": "C:\\Users\\agwar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\agwar\\OneDrive\\Documenten\\Miniproject\\MiniProject\\Miniproject\\obj\\",
+        "projectPath": "C:\\Users\\jobli\\OneDrive\\Bureaublad\\UNI\\HBO MOMENT\\MiniProject\\Miniproject\\Miniproject.csproj",
+        "packagesPath": "C:\\Users\\jobli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jobli\\OneDrive\\Bureaublad\\UNI\\HBO MOMENT\\MiniProject\\Miniproject\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\agwar\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-    "D:\\School\\Repos\\MiniProject\\Miniproject\\Miniproject.csproj": {}
-=======
-    "/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/Miniproject.csproj": {}
->>>>>>> 513e1f4b9441bbac0437db9c8db3526e61c8aa60
-  },
-  "projects": {
-    "/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/Miniproject.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/Miniproject.csproj",
-        "projectName": "Miniproject",
-        "projectPath": "/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/Miniproject.csproj",
-        "packagesPath": "/Users/joblimbeek/.nuget/packages/",
-        "outputPath": "/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-<<<<<<< HEAD
-          "C:\\Users\\Mexpu\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> 13d86784d7930e38b0de7a1b096fe91788a2127e
-=======
-          "/Users/joblimbeek/.nuget/NuGet/NuGet.Config"
->>>>>>> 513e1f4b9441bbac0437db9c8db3526e61c8aa60
+          "C:\\Users\\jobli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -78,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.405/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
