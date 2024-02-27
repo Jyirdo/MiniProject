@@ -1,3 +1,5 @@
+using System;
+
 class Player
 {
     public string name;
@@ -8,10 +10,34 @@ class Player
 
     public Player(string Name, string CurrentWeapon, string CurrentLocation, int CurrentHP, int MaximumHP)
     {
-        name = Name;
-        weapon = CurrentWeapon;
-        location = CurrentLocation;
-        currenthp = CurrentHP;
-        maximumhp = MaximumHP;
+        this.name = Name;
+        this.weapon = CurrentWeapon;
+        this.location = CurrentLocation;
+        this.currenthp = CurrentHP;
+        this.maximumhp = MaximumHP;
+    }
+
+    public static void Main()
+    {
+        Player ThePlayer = new Player("bob", "sword", "church", 10, 10);
+        ThePlayer.RegainHp();
+    }
+
+    public int RegainHp()
+    {
+        string input = Console.ReadLine();
+        if(input == "H")
+        {
+            currenthp += 5;
+            if (currenthp > maximumhp)
+            {
+                currenthp = maximumhp;
+            }
+            return currenthp;
+        }
+        else
+        {
+            return currenthp;
+        }
     }
 }

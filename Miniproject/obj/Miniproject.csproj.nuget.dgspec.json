@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/Miniproject.csproj": {}
+    "C:\\Users\\jobli\\OneDrive\\Bureaublad\\UNI\\HBO MOMENT\\MiniProject\\Miniproject\\Miniproject.csproj": {}
   },
   "projects": {
-    "/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/Miniproject.csproj": {
+    "C:\\Users\\jobli\\OneDrive\\Bureaublad\\UNI\\HBO MOMENT\\MiniProject\\Miniproject\\Miniproject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/Miniproject.csproj",
+        "projectUniqueName": "C:\\Users\\jobli\\OneDrive\\Bureaublad\\UNI\\HBO MOMENT\\MiniProject\\Miniproject\\Miniproject.csproj",
         "projectName": "Miniproject",
-        "projectPath": "/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/Miniproject.csproj",
-        "packagesPath": "/Users/joblimbeek/.nuget/packages/",
-        "outputPath": "/Users/joblimbeek/Desktop/Project B ofzo/Teringproject/MiniProject/Miniproject/obj/",
+        "projectPath": "C:\\Users\\jobli\\OneDrive\\Bureaublad\\UNI\\HBO MOMENT\\MiniProject\\Miniproject\\Miniproject.csproj",
+        "packagesPath": "C:\\Users\\jobli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jobli\\OneDrive\\Bureaublad\\UNI\\HBO MOMENT\\MiniProject\\Miniproject\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/joblimbeek/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\jobli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.405/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
