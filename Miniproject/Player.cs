@@ -17,27 +17,13 @@ class Player
         this.maximumhp = MaximumHP;
     }
 
-    public static void Main()
-    {
-        Player ThePlayer = new Player("bob", "sword", "church", 10, 10);
-        ThePlayer.RegainHp();
-    }
-
     public int RegainHp()
     {
-        string input = Console.ReadLine();
-        if(input == "H")
+        currenthp += 5;
+        if (currenthp > maximumhp)
         {
-            currenthp += 5;
-            if (currenthp > maximumhp)
-            {
-                currenthp = maximumhp;
-            }
-            return currenthp;
+            currenthp = maximumhp;
         }
-        else
-        {
-            return currenthp;
-        }
+        return currenthp;
     }
 }
