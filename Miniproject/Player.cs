@@ -1,17 +1,19 @@
 class Player
 {
-    public string name;
-    public string weapon;
-    public string location;
-    public int currenthp;
-    public int maximumhp;
+    public string Name;
+    public string Weapon;
+    public string Location;
+    public int CurrentHP;
+    public int MaximumHP;
+    public List<string> Inventory;
 
-    public Player(string Name, string CurrentWeapon, string CurrentLocation, int CurrentHP, int MaximumHP)
+    public Player(string name, string currentWeapon, string currentLocation, int currentHP, int maximumHP, List<string> inventory)
     {
-        name = Name;
-        weapon = CurrentWeapon;
-        location = CurrentLocation;
-        currenthp = CurrentHP;
-        maximumhp = MaximumHP;
+        Name = name;
+        Weapon = currentWeapon;
+        Location = currentLocation;
+        CurrentHP = currentHP;
+        MaximumHP = maximumHP;
+        Inventory = inventory;
     }
 }
