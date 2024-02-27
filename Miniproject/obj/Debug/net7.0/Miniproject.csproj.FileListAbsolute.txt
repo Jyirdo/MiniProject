@@ -19,3 +19,10 @@ C:\Users\agwar\OneDrive\Documenten\Miniproject\MiniProject\Miniproject\obj\Debug
 C:\Users\agwar\OneDrive\Documenten\Miniproject\MiniProject\Miniproject\obj\Debug\net7.0\Miniproject.dll
 C:\Users\agwar\OneDrive\Documenten\Miniproject\MiniProject\Miniproject\obj\Debug\net7.0\refint\Miniproject.dll
 C:\Users\agwar\OneDrive\Documenten\Miniproject\MiniProject\Miniproject\obj\Debug\net7.0\Miniproject.pdb
+N:\MiniProject\MiniProject\Miniproject\obj\Debug\net7.0\Miniproject.GeneratedMSBuildEditorConfig.editorconfig
+N:\MiniProject\MiniProject\Miniproject\obj\Debug\net7.0\Miniproject.AssemblyInfoInputs.cache
+N:\MiniProject\MiniProject\Miniproject\obj\Debug\net7.0\Miniproject.AssemblyInfo.cs
+N:\MiniProject\MiniProject\Miniproject\obj\Debug\net7.0\Miniproject.csproj.CoreCompileInputs.cache
+N:\MiniProject\MiniProject\Miniproject\obj\Debug\net7.0\Miniproject.dll
+N:\MiniProject\MiniProject\Miniproject\obj\Debug\net7.0\refint\Miniproject.dll
+N:\MiniProject\MiniProject\Miniproject\obj\Debug\net7.0\Miniproject.pdb
