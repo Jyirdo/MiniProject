@@ -18,4 +18,10 @@ public class Location
         this.QuestAvailableHere = questavailablehere;
         this.MonsterLivingHere = monsterlivinghere;
     }
+
+    public void CurrentLocation()
+    {
+        Console.WriteLine(Name);
+        Console.WriteLine(Description);
+    }
 }
