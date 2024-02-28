@@ -1,10 +1,12 @@
-﻿public class Program
+﻿using System.Security.Cryptography.X509Certificates;
+
+public class Program
 {
     public static void Main()
     {
         Console.WriteLine("What will your name be?");
         string? name = Console.ReadLine();
-        Player mc = new Player(name, World.WEAPON_ID_RUSTY_SWORD, World.LOCATION_ID_HOME, 10, 10);
+        Player mc = new Player(name, World.WEAPON_ID_RUSTY_SWORD, World.LOCATION_ID_HOME, 10, 10, 4);
         mc.Inventory();
 
         while (mc.currenthp > 0)
@@ -14,7 +16,7 @@
             Console.WriteLine("2: Move");
             Console.WriteLine("3: Fight");
             Console.WriteLine("4: Quit");
-            string choice = Console.ReadLine();
+            string? choice = Console.ReadLine();
 
             if (choice == "1")
             {
@@ -45,7 +47,7 @@
                 Console.WriteLine($"You are at: {World.LocationByID(mc.location).Name}. From here you can go:");
 
                 //middle of the map
-                else if (mc.location == World.LOCATION_ID_TOWN_SQUARE)
+                if (mc.location == World.LOCATION_ID_TOWN_SQUARE)
                 {
                     Console.WriteLine($"1: {World.LocationByID(World.LOCATION_ID_TOWN_SQUARE).LocationToNorth.Name}");
                     Console.WriteLine($"2: {World.LocationByID(World.LOCATION_ID_TOWN_SQUARE).LocationToEast.Name}");
@@ -98,7 +100,7 @@
                 }
 
                 //south directions
-                if (mc.location == World.LOCATION_ID_HOME)
+                else if (mc.location == World.LOCATION_ID_HOME)
                 {
                     Console.WriteLine($"1: {World.LocationByID(World.LOCATION_ID_HOME).LocationToNorth.Name}");
                     string choice4 = Console.ReadLine();
@@ -123,7 +125,7 @@
             }
             else if (choice == "3")
             {
-                continue;
+                Fight();
             }
             else if (choice == "4")
             {
@@ -132,6 +134,39 @@
             else
             {
                 continue;
+            }
+        }
+        void Fight()
+        {
+            Monster monster = new Monster(1, "Goblin", 3, 9, 9);
+
+            Console.WriteLine("Een wilde " + monster.name + " komt tevoorschijn!");
+
+            while (mc.currenthp > 0 && monster.currenthp > 0)
+            {
+                monster.TakeDamage(mc.damage);
+                Console.WriteLine("You hit the" + monster.name + "for" + mc.damage + " damage.");
+
+                // Check if the monster is defeated
+                if (monster.currenthp <= 0)
+                {
+                    Console.WriteLine("You defeated the " + monster.name + "!");
+                    break;
+                }
+
+                // Monster attacks the player
+                mc.TakeDamage(monster.damage);
+                Console.WriteLine("The " + monster.name + " hits you for " + monster.damage + " damage.");
+
+                // Check if the player is defeated
+                if (mc.currenthp <= 0)
+                {
+                    Console.WriteLine("You were defeated by the " + monster.name + "...");
+                    break;
+                }
+
+                Console.WriteLine("Your HP: " + mc.currenthp);
+                Console.WriteLine(monster.name + "'s HP: " + monster.currenthp);
             }
         }
     }

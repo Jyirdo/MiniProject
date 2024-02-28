@@ -10,14 +10,16 @@ class Player
     public int maximumhp;
     public List<string> inventory;
     public int potion;
+    public int damage;
 
-    public Player(string Name, int CurrentWeapon, int CurrentLocation, int CurrentHP, int MaximumHP)
+    public Player(string Name, int CurrentWeapon, int CurrentLocation, int CurrentHP, int MaximumHP, int Damage)
     {
         this.name = Name;
         this.weapon = CurrentWeapon;
         this.location = CurrentLocation;
         this.currenthp = CurrentHP;
         this.maximumhp = MaximumHP;
+        this.damage = Damage;
         inventory = new List<string>();
         potion = 1;
     }
@@ -42,5 +44,9 @@ class Player
         inventory.Add("compass");
         inventory.Add($"{weapon}");
         inventory.Add($"{potion} potions");
+    }
+    public void TakeDamage(int damage)
+    {
+        currenthp -= damage;
     }
 }
