@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel.DataAnnotations;
 
 class Player
 {
@@ -28,16 +29,18 @@ class Player
         {
             currenthp = maximumhp;
         }
+        inventory.Remove(inventory[inventory.Count() - 1]);
         potion -= 1;
-        Console.WriteLine("You consumed a potion");
+        inventory.Add($"{potion} potion");
+        Console.WriteLine("You consumed a potion\n");
         return currenthp;
     }
 
     public void Inventory()
     {
-        inventory.Add($"{weapon}");
-        inventory.Add($"{potion} potion");
         inventory.Add("map");
         inventory.Add("compass");
+        inventory.Add($"{weapon}");
+        inventory.Add($"{potion} potions");
     }
 }
