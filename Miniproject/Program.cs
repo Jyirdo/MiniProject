@@ -1,31 +1,34 @@
-﻿class Program 
+﻿class Program
 {
     public void Main()
     {
         Console.WriteLine("What will your name be?");
         string name = Console.ReadLine();
-        Player mc = new Player(name, "bronze sword", "home", 10, 10);
+        Player mc = new Player(name, "rusty sword", "home", 10, 10);
 
         while (true)
         {
             Console.WriteLine("What would you like to do (Enter a Letter)?");
-            Console.WriteLine("S: See game stats");
-            Console.WriteLine("M: Move");
-            Console.WriteLine("F: Fight");
-            Console.WriteLine("Q: Quit");
-            string? choice = Console.ReadLine();
+            Console.WriteLine("1: See game stats");
+            Console.WriteLine("2: Move");
+            Console.WriteLine("3: Fight");
+            Console.WriteLine("4: Quit");
+            string choice = Console.ReadLine();
 
-            if (choice.ToUpper() == "S")
+            if (choice == "1")
             {
                 Console.WriteLine($"\nYour current weapon is the {mc.weapon}");
                 Console.WriteLine($"You are at {mc.currenthp}/{mc.maximumhp}hp");
                 Console.WriteLine("Press I to see inventory");
-                string? choice2 = Console.ReadLine();
+                string choice2 = Console.ReadLine();
                 if (choice2.ToUpper() = "I")
                 {
-                    // show weapons
-                    // show healing potions
-                    // show other items
+                    Console.WriteLine("\nYour inventory contains:");
+                    for (int i = 0; i < mc.inventory.Count(); i++)
+                    {
+                        Console.WriteLine($"\n{mc.inventory[i]}");
+                    }
+
                     Console.WriteLine("\nPress H to use a healing potion to regain 5hp");
                     string? choice3 = Console.ReadLine();
                     if (choice3.ToUpper() = "H")
@@ -34,17 +37,21 @@
                     }
                 }
             }
-            else if (choice.ToUpper() == "M")
+            else if (choice == "2")
             {
                 Console.WriteLine("\nWhere would you like to go?");
-                Console.WriteLine($"You are at: {mc.location}. From here you van go:");
-                Console.WriteLine();
+                Console.WriteLine($"You are at: {mc.location}. From here you can go:");
+                if (mc.location == "home")
+                {
+                    Console.WriteLine("N: North");
+                    string direction = Console.ReadLine();
+                }
             }
-            else if (choice.ToUpper() == "F")
+            else if (choice == "3")
             {
                 // fight
             }
-            else if (choice.ToUpper() == "Q")
+            else if (choice == "4")
             {
                 break;
             }

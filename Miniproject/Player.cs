@@ -7,6 +7,8 @@ class Player
     public string location;
     public int currenthp;
     public int maximumhp;
+    public List<string> inventory;
+    public int potion;
 
     public Player(string Name, string CurrentWeapon, string CurrentLocation, int CurrentHP, int MaximumHP)
     {
@@ -15,6 +17,8 @@ class Player
         this.location = CurrentLocation;
         this.currenthp = CurrentHP;
         this.maximumhp = MaximumHP;
+        inventory = new List<string>();
+        potion = 1;
     }
 
     public int RegainHp()
@@ -24,6 +28,16 @@ class Player
         {
             currenthp = maximumhp;
         }
+        potion -= 1;
+        Console.WriteLine("You consumed a potion");
         return currenthp;
+    }
+
+    public void Inventory()
+    {
+        inventory.Add($"{weapon}");
+        inventory.Add($"{potion} potion");
+        inventory.Add("map");
+        inventory.Add("compass");
     }
 }
