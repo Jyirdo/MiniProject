@@ -18,7 +18,7 @@
 
             if (choice == "1")
             {
-                Console.WriteLine($"\nYour current weapon is the {mc.weapon}");
+                Console.WriteLine($"\nYour current weapon is the {World.WeaponByID(mc.weapon).name}");
                 Console.WriteLine($"You are at {mc.currenthp}/{mc.maximumhp}hp");
                 Console.WriteLine("Press I to see inventory");
                 string? choice2 = Console.ReadLine();
@@ -44,13 +44,7 @@
                 Console.WriteLine("\nWhere would you like to go?");
                 Console.WriteLine($"You are at: {World.LocationByID(mc.location).Name}. From here you can go:");
 
-                World.LocationByID(World.LOCATION_ID_HOME);
-                if (mc.location == World.LOCATION_ID_HOME)
-                {
-                    Console.WriteLine($"1: {World.LocationByID(World.LOCATION_ID_HOME).LocationToNorth.Name}");
-                    string choice4 = Console.ReadLine();
-                    if (choice4 == "1") { mc.location = World.LOCATION_ID_TOWN_SQUARE; }
-                }
+                //middle of the map
                 else if (mc.location == World.LOCATION_ID_TOWN_SQUARE)
                 {
                     Console.WriteLine($"1: {World.LocationByID(World.LOCATION_ID_TOWN_SQUARE).LocationToNorth.Name}");
@@ -64,6 +58,54 @@
                     else if (choice4 == "4") { mc.location = World.LOCATION_ID_FARMHOUSE; }
                 }
 
+                //north directions
+                else if (mc.location == World.LOCATION_ID_ALCHEMIST_HUT)
+                {
+                    Console.WriteLine($"1: {World.LocationByID(World.LOCATION_ID_ALCHEMIST_HUT).LocationToNorth.Name}");
+                    Console.WriteLine($"2: {World.LocationByID(World.LOCATION_ID_ALCHEMIST_HUT).LocationToSouth.Name}");
+                    string choice4 = Console.ReadLine();
+                    if (choice4 == "1") { mc.location = World.LOCATION_ID_ALCHEMISTS_GARDEN; }
+                    else if (choice4 == "2") { mc.location = World.LOCATION_ID_TOWN_SQUARE; }
+                }
+                else if (mc.location == World.LOCATION_ID_ALCHEMISTS_GARDEN)
+                {
+                    Console.WriteLine($"1: {World.LocationByID(World.LOCATION_ID_ALCHEMISTS_GARDEN).LocationToSouth.Name}");
+                    string choice4 = Console.ReadLine();
+                    if (choice4 == "1") { mc.location = World.LOCATION_ID_ALCHEMIST_HUT; }
+                }
+                //east directions
+                else if (mc.location == World.LOCATION_ID_GUARD_POST)
+                {
+                    Console.WriteLine($"1: {World.LocationByID(World.LOCATION_ID_GUARD_POST).LocationToEast.Name}");
+                    Console.WriteLine($"2: {World.LocationByID(World.LOCATION_ID_GUARD_POST).LocationToWest.Name}");
+                    string choice4 = Console.ReadLine();
+                    if (choice4 == "1") { mc.location = World.LOCATION_ID_BRIDGE; }
+                    else if (choice4 == "2") { mc.location = World.LOCATION_ID_TOWN_SQUARE; }
+                }
+                else if (mc.location == World.LOCATION_ID_BRIDGE)
+                {
+                    Console.WriteLine($"1: {World.LocationByID(World.LOCATION_ID_BRIDGE).LocationToEast.Name}");
+                    Console.WriteLine($"2: {World.LocationByID(World.LOCATION_ID_BRIDGE).LocationToWest.Name}");
+                    string choice4 = Console.ReadLine();
+                    if (choice4 == "1") { mc.location = World.LOCATION_ID_SPIDER_FIELD; }
+                    else if (choice4 == "2") { mc.location = World.LOCATION_ID_GUARD_POST; }
+                }
+                else if (mc.location == World.LOCATION_ID_SPIDER_FIELD)
+                {
+                    Console.WriteLine($"1: {World.LocationByID(World.LOCATION_ID_SPIDER_FIELD).LocationToWest.Name}");
+                    string choice4 = Console.ReadLine();
+                    if (choice4 == "1") { mc.location = World.LOCATION_ID_BRIDGE; }
+                }
+
+                //south directions
+                if (mc.location == World.LOCATION_ID_HOME)
+                {
+                    Console.WriteLine($"1: {World.LocationByID(World.LOCATION_ID_HOME).LocationToNorth.Name}");
+                    string choice4 = Console.ReadLine();
+                    if (choice4 == "1") { mc.location = World.LOCATION_ID_TOWN_SQUARE; }
+                }
+
+                //west directions
                 else if (mc.location == World.LOCATION_ID_FARMHOUSE)
                 {
                     Console.WriteLine($"1: {World.LocationByID(World.LOCATION_ID_FARMHOUSE).LocationToEast.Name}");
@@ -74,36 +116,14 @@
                 }
                 else if (mc.location == World.LOCATION_ID_FARM_FIELD)
                 {
-                    Console.WriteLine($"1: {World.LocationByID(World.LOCATION_ID_FARM_FIELD).LocationToEast.Name}");
+                    Console.WriteLine($"1: {World.LocationByID(World.LOCATION_ID_FARM_FIELD).LocationToWest.Name}");
                     string choice4 = Console.ReadLine();
                     if (choice4 == "1") { mc.location = World.LOCATION_ID_FARMHOUSE; }
                 }
-
-                else if (mc.location == World.LOCATION_ID_FARMHOUSE)
-                {
-                    Console.WriteLine($"1: {World.LocationByID(World.LOCATION_ID_FARMHOUSE).LocationToEast.Name}");
-                    Console.WriteLine($"2: {World.LocationByID(World.LOCATION_ID_FARMHOUSE).LocationToWest.Name}");
-                    string choice4 = Console.ReadLine();
-                    if (choice4 == "1") { mc.location = World.LOCATION_ID_TOWN_SQUARE; }
-                    else if (choice4 == "2") { mc.location = World.LOCATION_ID_FARM_FIELD; }
-                }
-                else if (mc.location == World.LOCATION_ID_FARM_FIELD)
-                {
-                    Console.WriteLine($"1: {World.LocationByID(World.LOCATION_ID_FARM_FIELD).LocationToEast.Name}");
-                    string choice4 = Console.ReadLine();
-                    if (choice4 == "1") { mc.location = World.LOCATION_ID_FARMHOUSE; }
-                }
-
-
             }
             else if (choice == "3")
             {
-                for (int i = 0; i < World.Locations.Count(); i++)
-                {
-                    Console.WriteLine($"{World.Locations[i]}");
-                }
-                Location currentlocation = World.LocationByID(World.LOCATION_ID_HOME);
-                Console.WriteLine(currentlocation.Name);
+                continue;
             }
             else if (choice == "4")
             {
