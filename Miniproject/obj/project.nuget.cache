@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UN52NgbZ/etpBCPN6irZRbkCsv3KCi/8mQdghZwIOy94SMxqPkH7jUr5eGNFmL51t91I/rHaNS08o7Loyv9w4w==",
+  "dgSpecHash": "X39Y1YNfajS3OfKxt2MrSPEveyvFp+4rEf0GKuBy3IC1autz7CEhx576zoN/dtrIwHWkfpt9zMdl7CeIWRvFWg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jobli\\OneDrive\\Bureaublad\\UNI\\HBO MOMENT\\MiniProject\\Miniproject\\Miniproject.csproj",
+  "projectFilePath": "C:\\Users\\agwar\\OneDrive\\Documenten\\Miniproject\\MiniProject-1\\Miniproject\\Miniproject.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\jobli\\OneDrive\\Bureaublad\\UNI\\HBO MOMENT\\MiniProject\\Miniproject\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
